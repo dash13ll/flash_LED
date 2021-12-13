@@ -8,8 +8,8 @@ void setup() {
 void loop() {
   digitalWrite(flashLedNow, HIGH);
   digitalWrite(flashMob, LOW);
-  delay(500);
+  delay(300);
   digitalWrite(flashLedNo, LOW);
   digitalWrite(flashMob, HIGH);
-  delay(500);
+  delay(300);
 }
