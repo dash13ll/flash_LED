@@ -1,11 +1,11 @@
-int flashLed = 33;
+int flashLedNow = 33;
 void setup() {
-  pinMode(flashLed, OUTPUT);
+  pinMode(flashLedNow, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(flashLed, HIGH);
-  delay(100);
-  digitalWrite(flashLed, LOW);
-  delay(100);
+  digitalWrite(flashLedNow, HIGH);
+  delay(500);
+  digitalWrite(flashLedNow, LOW);
+  delay(500);
 }
